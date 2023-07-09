@@ -1,2 +1,0 @@
-KravKate
-Contacts
