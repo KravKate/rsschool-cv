@@ -1,2 +1,1 @@
-Ekaterina Kravchenko
-Krasnodar
+
