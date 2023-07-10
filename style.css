@@ -1,10 +1,11 @@
 body {
     margin: 0 auto;
-    width: 1280px;
-    height: 3796;
+    width: 900px;
+    align-items: center;
     background-color: antiquewhite;
     color: #382e20;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 
 .header-container {
@@ -14,26 +15,24 @@ body {
 }
 
 .photo {
-    width: 450px;
+    width: 400px;
     border-radius: 20px;
 }
 
 .main-photo {
-    margin-top: -70px;
-    margin-right: 60px;
+    margin-top: -50px;
 }
-.navigation {
-    margin: 16px 40px 17px 0;
-}
+
 .navigation-menu {
     list-style-type: none;
     color: #382e20;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 40px;
-    font-size: 25px;
-    margin-left: 670px;
+    gap: 30px;
+    font-size: 24px;
+    margin-left: 425px;
+    margin-top: 10px;
 }
 
 a {
@@ -43,4 +42,19 @@ a {
 
 .list {
     list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills-list {
+    list-style-type: none;
+}
+
+.education, .contacts, .navigation, .header-container, .main-photo {
+    background-color: rgb(243, 206, 201) ;
+}
+
+.skills, .projects {
+    background-color: rgb(226, 175, 174);
 }
