@@ -47,7 +47,7 @@ a {
     justify-content: space-between;
 }
 
-.skills-list {
+.skills-list, .contacts-list {
     list-style-type: none;
 }
 
